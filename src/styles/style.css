@@ -10,7 +10,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #282a36;
+    background-color: #FF1493;
 }
 
 .memory-game {
@@ -27,7 +27,7 @@ body {
     width: calc(25% - 10px);
     margin: 5px;
     position: relative;
-    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 1px 1px 1px rgba(199,21,133);
     cursor: pointer;
     transform: scale(1);
     transform-style: preserve-3d; /* adiciona perspectiva 3d, para que o elemento nao fique achatada no plano */
@@ -46,7 +46,7 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  background: rgb(92, 187, 182);
+  background: rgb(219,112,147);
   backface-visibility: hidden; /* todo elemento tem uma frente e um verso (ao contrário, como um espelho.) essa propriedade retira o verso */
 }
 
